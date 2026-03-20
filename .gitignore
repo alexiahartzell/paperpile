@@ -1,0 +1,16 @@
+# Generated config (contains credentials and machine-specific paths)
+.mcp.json
+zotero-mcp/config.json
+
+# User-specific Claude Code settings
+.claude/settings.local.json
+
+# Python venv
+zotero-mcp/.venv/
+
+# PDFs (users bring their own)
+queue/*.pdf
+library/*.pdf
+
+# Claude memory (user-specific)
+.claude/projects/
